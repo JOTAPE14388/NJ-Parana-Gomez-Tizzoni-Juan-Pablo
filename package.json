@@ -1,0 +1,32 @@
+{
+  "name": "nj-parana-gomez-tizzoni-juan-pablo",
+  "version": "1.0.0",
+  "description": "Primer npm del proyecto para CODER",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss Assets/SCSS/estilos.scss Assets/CSS/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOTAPE14388/NJ-Parana-Gomez-Tizzoni-Juan-Pablo.git"
+  },
+  "keywords": [
+    "estetica",
+    "reparaciones",
+    "autos",
+    "pulido",
+    "detailing"
+  ],
+  "author": "Gomez Tizzoni Juan Pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOTAPE14388/NJ-Parana-Gomez-Tizzoni-Juan-Pablo/issues"
+  },
+  "homepage": "https://github.com/JOTAPE14388/NJ-Parana-Gomez-Tizzoni-Juan-Pablo#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
